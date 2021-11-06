@@ -1,0 +1,80 @@
+.btn{
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    touch-action:manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    border-radius: 4px;
+    user-select: none;
+}
+
+.footer-text{
+    color: #fff;
+    font-size: 17px;
+    width: 500px;
+}
+
+.header-text{
+    color: #fff;
+    font-size: 30px;
+    width: 300px;
+    margin-left: 40%;
+    margin-top: 1%;
+}
+
+div.card-footer {
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
+
+header{
+    height: 100%;
+    width: 100%;
+    background-color: #000000;
+}
+
+.input-login-email{
+    width: 30%;
+}
+
+.input-login-password{
+    width: 30%;
+    margin-top: 3%;
+}
+
+.btn-login{
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    margin-top: 3%;
+}
+
+.btn-cadastro{
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    margin-top: 3%;
+    margin-left: 13%;
+}
+
+.form-login{
+    margin-left: 38%;
+    margin-top: 5%;
+}
+
+.subtitle-login{
+    margin-top: 15%;
+    margin-right: 5%;
+    text-align: center;
+    font-size: 20pt;
+    font-weight: bold;
+}
