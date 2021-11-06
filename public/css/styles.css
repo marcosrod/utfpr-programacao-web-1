@@ -78,3 +78,37 @@ header{
     font-size: 20pt;
     font-weight: bold;
 }
+
+.btn-cadastro-confirmar{
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    margin-top: 3%;
+}
+
+.btn-cadastro-voltar{
+    color: #fff;
+    background-color: #000000;
+    border-color: #000000;
+    margin-top: 3%;
+    margin-left: 13%;
+}
+
+.form-register{
+    margin-left: 38%;
+    margin-top: 5%;
+}
+
+.input-register-nome{
+    width: 30%;
+}
+
+.input-register-email{
+    width: 30%;
+    margin-top: 3%;
+}
+
+.input-register-password{
+    width: 30%;
+    margin-top: 3%;
+}
