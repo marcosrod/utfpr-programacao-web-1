@@ -44,6 +44,7 @@
     left: 26%;
     z-index: 3;
     position: absolute;
+    text-decoration: none;
 }
 
 .btn-header-product{
@@ -55,6 +56,7 @@
     left: 35%;
     z-index: 3;
     position: absolute;
+    text-decoration: none;
 }
 
 .btn-header-category{
@@ -66,6 +68,7 @@
     left: 45%;
     z-index: 3;
     position: absolute;
+    text-decoration: none;
 }
 
 div.card-footer {
@@ -203,7 +206,7 @@ header {
     z-index: 4;
 }
 
-.btn-index-create {
+.btn-float-create {
     height: 60px;
     width: 60px;
     position: absolute;
@@ -224,4 +227,14 @@ header {
     display: flex;
     align-items: center;
     justify-content: center;    
+}
+
+.title-delete{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.text-delete{
+    font-size: 16px;
+    font-weight: 500;
 }
