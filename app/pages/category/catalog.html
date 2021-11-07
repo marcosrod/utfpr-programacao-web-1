@@ -2,6 +2,7 @@
 <html lang="pt-br">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="../../../public/css/styles.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Latest compiled JavaScript -->
@@ -37,8 +38,12 @@
             <td>1</td>
             <td>Limpeza</td>
             <td>
-              <a class="btn btn-info me-2" href="../category/edit.html"></a>
-              <button class="btn btn-danger" data-toggle="modal" data-target="#deleteCategoryModal"></button>
+              <button class="btn-edit" onclick="window.location.href='edit.html'">
+                <i class="fa-solid fa-pen-to-square icon-btn-edit"></i>
+              </button>
+              <button class="btn-delete" data-toggle="modal" data-target="#deleteCategoryModal">
+                <i class="fa-solid fa-trash icon-btn-delete"></i>
+              </button>
             </td>
             </td>
           </tr>

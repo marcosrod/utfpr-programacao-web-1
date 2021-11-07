@@ -12,41 +12,36 @@
     <title>Register</title>
 </head>
 <body style="background-image: url('../../../public/images/background-login.jpg');">
+  <div class="page">
+    <div class="page-content">
+    <div class="logo">
+      <img src="../../../public/images/logo.png" alt="Logo">
+    </div>  
+
     <h1 class="title-register">Nova Conta</h1>
 
-    <!-- <div class="form-register">
-    <div class="input-register-nome">
-        <input class="form-control" type="text" placeholder="Nome">
-    </div>    
-        
-    <div class="input-register-email">
-        <input class="form-control" type="text" placeholder="Email">
-    </div>
-
-    <div class="input-register-password">
-        <input class="form-control" type="password" placeholder="Senha">
-    </div>
-
-    <button type="button" class="btn btn-cadastro-confirmar">Confirmar</button>
-    <button type="button" class="btn btn-cadastro-voltar">Voltar</button> -->
-
-    <form class="form-register">
-        <div class="mb-3">
-            <label class="form-label">nome</label>
-            <input class="form-control input-register-nome" id="form-register-nome" type="text" placeholder="Nome">
+    <form class="form-register" id="form-register">
+        <div class="mb-3 input-register-div">
+            <label class="form-label">Nome</label>
+            <input class="form-control input-register-nome" id="form-register-name" type="text" placeholder="Nome" required>
           </div>
-        <div class="mb-3">
-          <label class="form-label">email</label>
-          <input class="form-control input-register-email" id="form-register-email" type="email" placeholder="usuario@sparkyproduct.com.br">
+        <div class="mb-3 input-register-div">
+          <label class="form-label">Email</label>
+          <input class="form-control input-register-email" id="form-register-email" type="email" placeholder="usuario@sparkyproduct.com.br" required>
         </div>
-        <div class="mb-3">
-          <label class="form-label">password</label>
-          <input class="form-control input-register-password" id="form-register-senha" type="password" placeholder="Senha">
+        <div class="mb-3 input-register-div">
+          <label class="form-label">Password</label>
+          <input class="form-control input-register-password" id="form-register-password" type="password" placeholder="Senha" required>
         </div>
-        <button class="btn btn-primary btn-cadastro-confirmar" type="submit">Entrar</button>
-        <button type="button" class="btn btn-primary btn-cadastro-voltar">Voltar</button>
+        <div class="input-register-div-btn">
+          <button class="btn btn-success btn-cadastro-confirmar" type="submit">Confirmar</button>
+          <button type="button" class="btn btn-primary btn-cadastro-voltar" onclick="window.location.href='login.html'">Voltar</button>
+        </div>
       </form>
-</div>
-    
+    </div>
+    </div>
+  </div>
+  <script src="../user/js/userRegister.js"></script>
 </body>
+
 </html>

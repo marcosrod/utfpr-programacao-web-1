@@ -12,6 +12,16 @@
         <iframe title="page-header" scrolling="no" src="../../components/header.html" frameborder="0" width="100%" height="100"> </iframe>
     </div>
 
+    <h1 class="title-register-category">Cadastrar Categoria</h1>
+
+    <form class="category-form-register" onsubmit="window.location.href='catalog.html'; return false;">
+        <div class="mb-3">
+            <input class="form-control category-form-register-nome" id="category-form-register-nome" type="text" placeholder="Nome">
+          </div>
+        <button class="btn btn-success category-btn-register-confirmar" type="submit" onclick="window.location.href='catalog.html'">Confirmar</button>
+        <button type="button" class="btn btn-danger category-btn-register-voltar" onclick="window.location.href='catalog.html'">Cancelar</button>
+    </form>
+
     <div class="navbar-fixed-bottom">
         <iframe title="page-footer" scrolling="no" src="../../components/footer.html" frameborder="0" width="100%" height="100"></iframe>
     </div>

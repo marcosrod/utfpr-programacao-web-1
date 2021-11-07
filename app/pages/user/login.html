@@ -13,23 +13,30 @@
 </head>
 <body style="background-image: url('../../../public/images/background-login.jpg');">
     <div class="page">
+    <div class="page-content">
+    <div class="logo">
+      <img src="../../../public/images/logo.png" alt="Logo">
+    </div>  
+
+
     <h1 class="title-login">Login</h1>
 
-    <form class="form-login">
-        <div class="mb-3">
-          <label class="form-label">email</label>
-          <input class="form-control input-login-email" id="form-login-email" type="email" placeholder="usuario@sparkyproduct.com.br">
+    <form class="form-login" id="form-login">
+        <div class="mb-3 input-login-div">
+          <label class="form-label login-label-input-email">Email</label>
+          <input class="form-control input-login-email" id="form-login-email" type="email" placeholder="usuario@sparkyproduct.com.br" required>
         </div>
-        <div class="mb-3">
-          <label class="form-label">password</label>
-          <input class="form-control input-login-password" id="form-login-senha" type="password" placeholder="Senha">
+        <div class="mb-3 input-login-div">
+          <label class="form-label login-label-input-senha">Senha</label>
+          <input class="form-control input-login-password" id="form-login-password" type="password" placeholder="Senha" required>
         </div>
-        <button class="btn btn-primary btn-login" type="submit">Entrar</button>
-        <button type="button" class="btn btn-primary btn-cadastro">Cadastrar</button>
+        <div class="input-login-div-btn">
+          <button class="btn btn-success btn-login" type="submit">Entrar</button>
+          <button type="button" class="btn btn-primary btn-cadastro" onclick="window.location.href='register.html'">Cadastrar</button>
+        </div>
       </form>
-    
-</div>
-</div>
-    
+    </div>
+    </div>
+    <script src="../user/js/userLogin.js"></script>
 </body>
 </html>

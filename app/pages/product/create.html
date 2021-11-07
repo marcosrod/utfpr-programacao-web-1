@@ -12,6 +12,22 @@
         <iframe title="page-header" scrolling="no" src="../../components/header.html" frameborder="0" width="100%" height="100"> </iframe>
     </div>
 
+    <h1 class="title-register-product">Cadastrar Produto</h1>
+
+    <form class="product-form-register" onsubmit="window.location.href='catalog.html'; return false;">
+        <div class="mb-3">
+            <input class="form-control product-form-register-nome" id="product-form-register-nome" type="text" placeholder="Nome">
+          </div>
+        <div class="mb-3">
+          <input class="form-control product-form-register-preco" id="product-form-register-preco" type="text" placeholder="R$ 00.00">
+        </div>
+        <div class="mb-3">
+          <input class="form-control product-form-register-categoria" id="product-form-register-categoria" type="text" placeholder="Categoria">
+        </div>
+        <button class="btn btn-success product-btn-register-confirmar" type="submit" onclick="window.location.href='catalog.html'">Confirmar</button>
+        <button type="button" class="btn btn-danger product-btn-register-voltar" onclick="window.location.href='catalog.html'">Cancelar</button>
+    </form>
+
     <div class="navbar-fixed-bottom">
         <iframe title="page-footer" scrolling="no" src="../../components/footer.html" frameborder="0" width="100%" height="100"></iframe>
     </div>
