@@ -1,3 +1,8 @@
+.page{
+    height: 100%;
+    width: 100%;
+}
+
 .btn{
     display: inline-block;
     margin-bottom: 0;
@@ -26,20 +31,60 @@
     color: #fff;
     font-size: 30px;
     width: 300px;
-    margin-left: 40%;
+    margin-left: 3%;
     margin-top: 1%;
+}
+
+.btn-header-index{
+    color: #fff;
+    font-weight: bold;
+    background-color: transparent;
+    border-color:transparent;
+    top: 25%;
+    left: 26%;
+    z-index: 3;
+    position: absolute;
+}
+
+.btn-header-product{
+    color: #fff;
+    font-weight: bold;
+    background-color: transparent;
+    border-color:transparent;
+    top: 25%;
+    left: 35%;
+    z-index: 3;
+    position: absolute;
+}
+
+.btn-header-category{
+    color: #fff;
+    font-weight: bold;
+    background-color: transparent;
+    border-color:transparent;
+    top: 25%;
+    left: 45%;
+    z-index: 3;
+    position: absolute;
 }
 
 div.card-footer {
     height: 100%;
     width: 100%;
-    background-color: #000000;
+    background-color:peru;
+    border-style: none;
 }
 
-header{
+div.card-header {
     height: 100%;
     width: 100%;
-    background-color: #000000;
+    background-color:peru;
+}
+
+header {
+    height: 100%;
+    width: 100%;
+    background-color:peru;
 }
 
 .input-login-email{
@@ -67,16 +112,18 @@ header{
 }
 
 .form-login{
-    margin-left: 38%;
-    margin-top: 5%;
+    margin-left: 40%;
+    margin-top: 15%;
 }
 
-.subtitle-login{
-    margin-top: 15%;
-    margin-right: 5%;
+.title-login{
+    margin-top: 5%;
+    margin-right: 2%;
     text-align: center;
-    font-size: 20pt;
+    font-size: 30pt;
     font-weight: bold;
+    color:#fff;
+    border-color: #000000;
 }
 
 .btn-cadastro-confirmar{
@@ -95,8 +142,8 @@ header{
 }
 
 .form-register{
-    margin-left: 38%;
-    margin-top: 5%;
+    margin-left: 40%;
+    margin-top: 15%;
 }
 
 .input-register-nome{
@@ -111,4 +158,29 @@ header{
 .input-register-password{
     width: 30%;
     margin-top: 3%;
+}
+
+.title-register{
+    margin-top: 5%;
+    margin-right: 2%;
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+    color: #fff;
+}
+
+.title-index {
+    margin-top: 20%;
+    text-align: center;
+    font-size: 30pt;
+    font-weight: bold;
+    color:#000000;
+}
+
+.navbar-fixed-bottom {
+    position: fixed;     
+    padding: 10px 10px 0px 10px;     
+    bottom: 0;     
+    width: 100%;      
+    background: peru;
 }
