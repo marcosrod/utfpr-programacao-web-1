@@ -93,22 +93,22 @@ header {
 
 .input-login-password{
     width: 30%;
-    margin-top: 3%;
+    margin-bottom: 5%;
 }
 
 .btn-login{
-    color: #fff;
-    background-color: #000000;
+    color: #000000;
+    background-color:#fff;
     border-color: #000000;
-    margin-top: 3%;
+    font-weight: bold;
 }
 
 .btn-cadastro{
-    color: #fff;
-    background-color: #000000;
+    color: #000000;
+    font-weight: bold;
+    background-color:#fff;
     border-color: #000000;
-    margin-top: 3%;
-    margin-left: 13%;
+    margin-left: 12%;
 }
 
 .form-login{
@@ -127,18 +127,20 @@ header {
 }
 
 .btn-cadastro-confirmar{
-    color: #fff;
-    background-color: #000000;
+    color: #000000;
+    font-weight: bold;
+    background-color:#fff;
     border-color: #000000;
     margin-top: 3%;
 }
 
 .btn-cadastro-voltar{
-    color: #fff;
-    background-color: #000000;
+    color: #000000;
+    font-weight: bold;
+    background-color:#fff;
     border-color: #000000;
     margin-top: 3%;
-    margin-left: 13%;
+    margin-left: 15%;
 }
 
 .form-register{
@@ -152,12 +154,10 @@ header {
 
 .input-register-email{
     width: 30%;
-    margin-top: 3%;
 }
 
 .input-register-password{
     width: 30%;
-    margin-top: 3%;
 }
 
 .title-register{
@@ -183,4 +183,28 @@ header {
     bottom: 0;     
     width: 100%;      
     background: peru;
+}
+
+.table {
+    margin-top: 8%;
+    margin-left: 5%;
+    width: 70%;
+}
+
+.float{
+	position:fixed;
+	width:60px;
+	height:60px;
+	bottom:40px;
+	right:40px;
+	background-color:#0C9;
+	color:#FFF;
+	border-radius:50px;
+	text-align:center;
+	box-shadow: 2px 2px 3px #999;
+}
+
+.my-float{
+	margin-top:22px;
+    
 }

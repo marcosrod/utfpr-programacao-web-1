@@ -15,17 +15,19 @@
     <div class="page">
     <h1 class="title-login">Login</h1>
 
-    <div class="form-login">
-    <div class="input-login-email">
-        <input class="form-control" type="text" placeholder="Email">
-    </div>
-
-    <div class="input-login-password">
-        <input class="form-control" type="password" placeholder="Senha">
-    </div>
-
-    <button type="button" class="btn btn-login">Entrar</button>
-    <button type="button" class="btn btn-cadastro">Cadastrar</button>
+    <form class="form-login">
+        <div class="mb-3">
+          <label class="form-label">email</label>
+          <input class="form-control input-login-email" id="form-login-email" type="email" placeholder="usuario@sparkyproduct.com.br">
+        </div>
+        <div class="mb-3">
+          <label class="form-label">password</label>
+          <input class="form-control input-login-password" id="form-login-senha" type="password" placeholder="Senha">
+        </div>
+        <button class="btn btn-primary btn-login" type="submit">Entrar</button>
+        <button type="button" class="btn btn-primary btn-cadastro">Cadastrar</button>
+      </form>
+    
 </div>
 </div>
     
