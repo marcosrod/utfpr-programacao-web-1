@@ -244,6 +244,9 @@ header {
     font-size: 30pt;
     font-weight: bold;
     color:#000000;
+    background-color: #fff;
+    box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset, rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+    border-radius: 5px;
 }
 
 .navbar-fixed-bottom {
@@ -306,6 +309,10 @@ header {
 
 .icon-btn-delete{
     font-size: 10px;
+}
+
+.btn-delete{
+    margin-left: 10px;
 }
 
 .icon-btn-edit{
@@ -376,7 +383,7 @@ header {
 
 .product-btn-register-voltar{
     margin-top: 2%;
-    margin-left: 7%;
+    margin-left: 11%;
 
 }
 
@@ -433,7 +440,7 @@ header {
 
 .category-btn-register-voltar{
     margin-top: 2%;
-    margin-left: 7%;
+    margin-left: 10.5%;
 
 }
 
@@ -447,6 +454,25 @@ header {
     border-color: #000000;
 }
 
-.logo{
-    /* margin-left: 35%; */
+.table-scrollbar {
+    position: relative;
+    height: 500px;
+    overflow: auto;
+    }
+
+.table-wrapper-scroll-y {
+    display: block;
+}
+
+table.dataTable thead .sorting:after,
+table.dataTable thead .sorting:before,
+table.dataTable thead .sorting_asc:after,
+table.dataTable thead .sorting_asc:before,
+table.dataTable thead .sorting_asc_disabled:after,
+table.dataTable thead .sorting_asc_disabled:before,
+table.dataTable thead .sorting_desc:after,
+table.dataTable thead .sorting_desc:before,
+table.dataTable thead .sorting_desc_disabled:after,
+table.dataTable thead .sorting_desc_disabled:before {
+bottom: .5em;
 }

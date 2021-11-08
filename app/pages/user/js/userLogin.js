@@ -24,26 +24,4 @@ const userAuth = () => {
   );
 };
 
-// const userAuth = async () => {
-//   const res = await fetch(
-//     "https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyAU-4rLBgoJiYH3xNUW8Pycg6QT4gOibTQ",
-//     {
-//       method: "POST",
-//       body: JSON.stringify({
-//         email: $email.value,
-//         password: $password.value,
-//         returnSecureToken: true,
-//       }),
-//       headers: {
-//         "Content-Type": "application/json",
-//       },
-//     }
-//   );
-//   if(res.ok) {
-//     window.location.href='../../../../app/pages/index.html';
-//   } else {
-//     alert("As informações inseridas são insuficientes ou inválidas.");
-//   }
-// };
-
 
