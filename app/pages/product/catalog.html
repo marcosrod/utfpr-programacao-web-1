@@ -22,6 +22,8 @@
     <div class="navbar-fixed-bottom">
         <iframe title="page-footer" scrolling="no" src="../../components/footer.html" frameborder="0" width="100%" height="100"></iframe>
     </div>
+    <div class="table-wrapper">
+      <div class="tabela">
       <table class="table table-striped border datatable" style="border-collapse: collapse;">
         <thead>
           <tr>
@@ -36,6 +38,8 @@
           </tr>
         </tbody>
       </table>
+      </div>
+    </div>
 
       <div class="modal" id="deleteProductModal" tabindex="-1" role="dialog">
         <div class="modal-dialog" role="document">
@@ -48,12 +52,13 @@
               <p class="text-delete">Deseja realmente excluir este produto do catálogo?</p>
             </div>
             <div class="modal-footer">
-              <button type="button" class="btn btn-danger">Excluir</button>
+              <button id="product-btn-delete" type="button" class="btn btn-danger">Excluir</button>
               <button type="button" class="btn btn-success" data-dismiss="modal">Voltar</button>
             </div>
           </div>
         </div>
       </div>
       <script src="../product/js/productCatalog.js"></script>
+      <script src="../product/js/productDelete.js"></script>
       </body>
 </html>

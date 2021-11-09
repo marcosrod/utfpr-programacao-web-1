@@ -10,7 +10,7 @@ document.querySelector("#form-login").addEventListener("submit", (event) => {
 
 
 const userAuth = () => {
-  fetch("https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=AIzaSyAU-4rLBgoJiYH3xNUW8Pycg6QT4gOibTQ", {
+  fetch("https://identitytoolkit.googleapis.com/v1/accounts:signInWithPassword?key=", {
     method: "POST",
     body: JSON.stringify({
       email: $email.value,

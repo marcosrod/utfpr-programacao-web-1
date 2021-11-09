@@ -14,17 +14,18 @@
 
     <h1 class="title-edit-category">Editar Categoria</h1>
 
-    <form class="category-form-edit" onsubmit="window.location.href='catalog.html'; return false;">
+    <form class="category-form-edit">
         <div class="mb-3">
-            <input class="form-control category-form-edit-nome" id="category-form-edit-nome" type="text" placeholder="Nome">
+            <label class="form-label edit-category-label-name">Nome</label>
+            <input class="form-control category-form-edit-nome" id="category-form-edit-nome" type="text" placeholder="Ex: Limpeza">
           </div>
-        <button class="btn btn-success category-btn-edit-confirmar" type="submit" onclick="window.location.href='catalog.html'">Confirmar</button>
+        <button id="category-btn-confirm-edit" class="btn btn-success category-btn-edit-confirmar" type="submit">Confirmar</button>
         <button type="button" class="btn btn-danger category-btn-edit-voltar" onclick="window.location.href='catalog.html'">Cancelar</button>
     </form>
 
     <div class="navbar-fixed-bottom">
         <iframe title="page-footer" scrolling="no" src="../../components/footer.html" frameborder="0" width="100%" height="100"></iframe>
     </div>
-    
+    <script src="../category/js/categoryEdit.js"></script>
 </body>
 </html>

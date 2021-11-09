@@ -27,7 +27,7 @@ fetch('https://sparkyproduct-default-rtdb.firebaseio.com/category.json')
         .then(res => res.json())
         .then(vals => {
             for(let data in vals) {
-                $('#product-form-register-categoria').append(new Option(`${vals[data].name}`, vals[data].name))
+                $('#product-form-register-categoria').append(new Option(`${data}`, data))
             }
         })
 

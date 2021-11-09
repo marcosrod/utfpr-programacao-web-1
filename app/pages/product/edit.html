@@ -16,13 +16,16 @@
 
     <form class="product-form-edit" onsubmit="window.location.href='catalog.html'; return false;">
         <div class="mb-3">
-            <input class="form-control product-form-edit-nome" id="product-form-edit-nome" type="text" placeholder="Nome">
+            <label class="form-label edit-product-label-name">Nome</label>
+            <input class="form-control product-form-edit-nome" id="product-form-edit-nome" type="text" placeholder="Ex: Vassoura">
           </div>
         <div class="mb-3">
-          <input class="form-control product-form-edit-preco" id="product-form-edit-preco" type="text" placeholder="R$ 00.00">
+          <label class="form-label edit-product-label-price">Preço</label>
+          <input class="form-control product-form-edit-preco" id="product-form-edit-preco" type="number" min="1" step="any" placeholder="R$ 00.00">
         </div>
         <div class="mb-3">
-          <input class="form-control product-form-edit-categoria" id="product-form-edit-categoria" type="text" placeholder="Categoria">
+          <label class="form-label edit-product-label-category">Categoria</label>
+          <select class="form-control product-form-edit-categoria" id="product-form-edit-categoria"></select>
         </div>
         <button class="btn btn-success product-btn-edit-confirmar" type="submit" onclick="window.location.href='catalog.html'">Confirmar</button>
         <button type="button" class="btn btn-danger product-btn-edit-voltar" onclick="window.location.href='catalog.html'">Cancelar</button>
@@ -31,6 +34,6 @@
     <div class="navbar-fixed-bottom">
         <iframe title="page-footer" scrolling="no" src="../../components/footer.html" frameborder="0" width="100%" height="100"></iframe>
     </div>
-    
+    <script src="../product/js/productEdit.js"></script>
 </body>
 </html>

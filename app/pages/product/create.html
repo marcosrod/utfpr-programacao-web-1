@@ -16,12 +16,15 @@
 
     <form class="product-form-register" id="product-form-register">
         <div class="mb-3">
-            <input class="form-control product-form-register-nome" id="product-form-register-nome" type="text" placeholder="Nome" required>
+            <label class="form-label create-product-label-name">Nome</label>
+            <input class="form-control product-form-register-nome" id="product-form-register-nome" type="text" placeholder="Ex: Vassoura" required>
           </div>
         <div class="mb-3">
-          <input class="form-control product-form-register-preco" id="product-form-register-preco" type="number" min="1" step="any" placeholder="00.00" required>
+          <label class="form-label create-product-label-price">Preco</label>
+          <input class="form-control product-form-register-preco" id="product-form-register-preco" type="number" min="1" step="any" placeholder="R$ 00.00" required>
         </div>
         <div class="mb-3">
+          <label class="form-label create-product-label-category">Categoria</label>
           <select class="form-control product-form-register-categoria" id="product-form-register-categoria"></select>
         </div>
         <button class="btn btn-success product-btn-register-confirmar" type="submit">Confirmar</button>
