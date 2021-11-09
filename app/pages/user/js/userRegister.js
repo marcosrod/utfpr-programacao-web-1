@@ -28,7 +28,7 @@ const saveNewUserInfo = (id) => {
 
 const addNewUser = async () => {
   const res = await fetch(
-    "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=",
+    "https://identitytoolkit.googleapis.com/v1/accounts:signUp?key=AIzaSyAU-4rLBgoJiYH3xNUW8Pycg6QT4gOibTQ",
     {
       method: "POST",
       body: JSON.stringify({
