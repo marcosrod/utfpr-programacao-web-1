@@ -46,4 +46,16 @@ const addNewUser = async () => {
   saveNewUserInfo(userData.localId);
 };
 
+const togglePassword = document.querySelector('#togglePassword');
+  const password = document.querySelector('#form-register-password');
+ 
+  togglePassword.addEventListener('click', function (e) {
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+
+    const iconState = document.querySelector('#span-icon-register').textContent; 
+    document.querySelector('#span-icon-register').textContent = iconState === 'visibility_off' ? 'visibility' : 'visibility_off';
+
+});
+
 

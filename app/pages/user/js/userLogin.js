@@ -24,4 +24,16 @@ const userAuth = () => {
   );
 };
 
+const togglePassword = document.querySelector('#togglePassword');
+  const password = document.querySelector('#form-login-password');
+ 
+  togglePassword.addEventListener('click', function (e) {
+    const type = password.getAttribute('type') === 'password' ? 'text' : 'password';
+    password.setAttribute('type', type);
+
+    const iconState = document.querySelector('#span-icon-login').textContent; 
+    document.querySelector('#span-icon-login').textContent = iconState === 'visibility_off' ? 'visibility' : 'visibility_off';
+
+});
+
 

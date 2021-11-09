@@ -2,6 +2,8 @@
 <html lang="pt-br">
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
 <link rel="stylesheet" href="../../../public/css/styles.css" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css" />
+<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"/>
 <!-- jQuery library -->
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <!-- Latest compiled JavaScript -->
@@ -28,7 +30,12 @@
         </div>
         <div class="mb-3 input-login-div">
           <label class="form-label login-label-input-senha">Senha</label>
+          <div class="input-password-login-icon">
           <input class="form-control input-login-password" id="form-login-password" type="password" placeholder="Senha" required>
+          <div class="eye-login" id="togglePassword">
+            <i id="visibilityBtn" class="material-icons"><span id="span-icon-login" class="material-icons-outlined">visibility</span></i>
+          </div>
+        </div>
         </div>
         <div class="input-login-div-btn">
           <button class="btn btn-success btn-login" type="submit">Entrar</button>
